@@ -1,8 +1,6 @@
-database={
-    
 
+info={
+    "data":{"loop":"nok", "lope":"yes"}
 }
 
-value1=input("put name: ")
-database[value1]={"Name":value1,"Age":"","Address":"","Phone Number":""}
-print(database)
+print(info["data"]["loop"])

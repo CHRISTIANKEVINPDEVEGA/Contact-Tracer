@@ -42,4 +42,10 @@ for i in range(10):
     user_input=input("Phone Number: ")
     personalinfo.append(user_input)
     database[personalinfo[0]]={"Name":personalinfo[0],"Age":personalinfo[1],"Address":personalinfo[2],"Phone Number":personalinfo[3]}
-    print(database)
+    break
+search=input("name: ")
+for key in database:
+    if search == key:
+        print(database[search])
+
+    
