@@ -31,7 +31,14 @@
 #           continue
 
 database={}
-
-value1=input("put name: ")
-database[value1]={"Name":value1,"Age":"","Address":"","Phone Number":""}
+personalinfo=[]
+user_input=input("put name: ")
+personalinfo.append(user_input)
+user_input=input("Age: ")
+personalinfo.append(user_input)
+user_input=input("Adress: ")
+personalinfo.append(user_input)
+user_input=input("Phone Number: ")
+personalinfo.append(user_input)
+database[personalinfo[0]]={"Name":personalinfo[0],"Age":personalinfo[1],"Address":personalinfo[2],"Phone Number":personalinfo[3]}
 print(database)
