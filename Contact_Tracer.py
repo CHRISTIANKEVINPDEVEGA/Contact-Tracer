@@ -21,7 +21,11 @@ while True:
     elif user_opt==2:
         print("You have chosen the option to search")
         search_id=input("Enter the name: ")
-        print(Contact_Tracing_DataBase[search_id])
+        print("You have chosen the option to search")
+        print("Name: "+ Contact_Tracing_DataBase[search_id]["Name"])
+        print("Age: "+ Contact_Tracing_DataBase[search_id]["Age"])
+        print("Address: "+ Contact_Tracing_DataBase[search_id]["Address"])
+        print("Phone Number: "+ Contact_Tracing_DataBase[search_id]["Phone Number"])
 
     elif user_opt==3:
         user_opt3=input("Do you wish to exit? ")
